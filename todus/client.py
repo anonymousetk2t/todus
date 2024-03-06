@@ -39,8 +39,8 @@ class ToDusClient:
 
     def __init__(
         self,
-        version_name: str = "0.40.29",
-        version_code: str = "21833",
+        version_name: str = "2.0.24",
+        version_code: str = "30024",
         logger: logging.Logger = logging,  # type: ignore
     ) -> None:
         self.version_name = version_name
